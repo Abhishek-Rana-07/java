@@ -1,0 +1,23 @@
+class Count
+{
+   
+   static int count=0;
+   Count()
+   {
+       count++;
+   }
+   
+   void display()
+   {
+      System.out.println("Count is: "+count+"\n");
+   }
+   public static void main(String args[])
+   {
+      Count obj1=new Count();
+      Count obj2=new Count();
+      Count obj3=new Count();
+      Count obj4=new Count();
+      obj1.display();
+   }
+   
+}
